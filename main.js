@@ -16,15 +16,16 @@ function addtodoList(){
          newContent= document.createTextNode(todoLists[i]);  // giving content
 
     }
-    document.getElementById("taskInLists").innerText=todoLists[0];
+ 
     let newDiv= document.createElement("div");  //creating div element  
         newDiv.style.height="35px";
         newDiv.style.color="white";
-        newDiv.style.backgroundColor="#ffd2d2";
+        newDiv.style.backgroundColor="#ffb7b7";
         newDiv.style.width="500px";
         newDiv.style.fontWeight="bolder";
         newDiv.style.fontSize="20px";
         newDiv.style.margin="auto";
+        newDiv.style.borderRadius="8px";
         newDiv.style.border="2px solid #524e4e";
         newDiv.style.fontFamily="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
         newDiv.style.marginTop="10px";
