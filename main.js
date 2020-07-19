@@ -20,17 +20,18 @@ function addtodoList(){
     let newDiv= document.createElement("div");  //creating div element  
         newDiv.style.height="35px";
         newDiv.style.color="white";
-        newDiv.style.backgroundColor="#6E6B6B";
+        newDiv.style.backgroundColor="#A0BFC8";
         newDiv.style.width="500px";
         newDiv.style.fontWeight="bolder";
         newDiv.style.fontSize="20px";
+        newDiv.style.alignSelf="center";
         newDiv.style.margin="auto";
         newDiv.style.borderRadius="8px";
-        newDiv.style.border="2px solid #524e4e";
+        newDiv.style.border="1px solid #524e4e";
         newDiv.style.fontFamily="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
         newDiv.style.marginTop="10px";
 
-    newDiv.classList.add("taskslist");          //setting class name
+    newDiv.classList.add("tasksList");          //setting class name
    
 
 
@@ -41,3 +42,8 @@ function addtodoList(){
     
 
 } 
+document.getElementsByClassName("tasksList").addEventListener("click", clickedList);
+
+function clickedList(){
+    document.getElementsByClassName("tasksList").innerHTML="clicked";
+}

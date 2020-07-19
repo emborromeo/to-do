@@ -1,13 +1,13 @@
 body{
-    background-color: #2E2E2E;
-    
+    background-image: linear-gradient(to right, #a0c6b9, #9dc5be, #9cc3c3, #9dc1c6, #a0bfc8);    
 }
 h1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    color:#FFFFFF;
+    color:#00c9b7;
     font-weight: bold;
+    text-shadow: 2px 3px 0px #898999;
+
 }
 
 #main{
@@ -23,19 +23,23 @@ h1{
   }
 #todoText{
     outline: none;
-    border: 2px solid #524e4e;
+    border: 1px solid #524e4e;
     font-size: 15px;
     border-radius: 5px;
+
 
 }
   
 #addButton{
-    height: 50px;
+    height: 40px;
+    width: 30px;
     text-align: center;
     background-color:#524e4e ;
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
+    padding: auto;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
     border-radius: 10px;
     border-style: hidden;
     margin-left: 10px;
@@ -48,9 +52,4 @@ h1{
     background:url('images/delete.png') no-repeat left center;
     height:73px;
     margin-right: auto;
-}
-#lists{
-    margin-top:30px;
-    align-content: center;
-
 }
