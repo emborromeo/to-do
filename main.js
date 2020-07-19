@@ -20,7 +20,7 @@ function addtodoList(){
     let newDiv= document.createElement("div");  //creating div element  
         newDiv.style.height="35px";
         newDiv.style.color="white";
-        newDiv.style.backgroundColor="#ffb7b7";
+        newDiv.style.backgroundColor="#6E6B6B";
         newDiv.style.width="500px";
         newDiv.style.fontWeight="bolder";
         newDiv.style.fontSize="20px";
