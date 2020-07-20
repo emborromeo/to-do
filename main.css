@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(to right, #a0c6b9, #9dc5be, #9cc3c3, #9dc1c6, #a0bfc8);    
+    background-image: linear-gradient(to right, #bfd9d0, #afd0ca, #afcfcf, #bfd6d9, #bed4da);    
 }
 header {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -41,9 +41,9 @@ header {
 
 #addButton{
     height: 40px;
-    width: 30px;
+    width: 35px;
     text-align: center;
-    background-color:#524e4e ;
+    background-color:#504949 ;
     color: white;
     padding: auto;
     font-size: 30px;
@@ -72,14 +72,58 @@ header {
 .todo-list {
     min-width: 30%;
     list-style: none;
+    margin-inline-start: -45px;
 }
 
-.todo {
+.tasksList {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1.5rem;
-    background: white;
+    margin: 1rem;
     font-size: 1.5rem;
     transition: all 0.5s ease;
+
+}
+.tasksList li{
+    flex: 1;
+
+}
+.todoItem {
+    padding: 0rem 1rem;
+    height:30px;
+    color: white;
+    background-color: #9fc1c6;
+    width: 250px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 2px 2px 2px #898999;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.check
+.delete {
+    pointer-events: none;
+}
+
+.checkButton,
+.removeButton{
+    height: 30px;
+    width: 35px;
+    margin-left: 5px;
+    background-color:#504949 ;  
+    box-shadow: 2px 2px 2px #898999; 
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+    border-style: hidden;  
+    cursor: pointer;
+    transition: 0.2s all ease;
+}
+
+
+.completed {
+    opacity: 0.6;
+    text-decoration: line-through;
 }
