@@ -127,3 +127,14 @@ header {
     opacity: 0.6;
     text-decoration: line-through;
 }
+
+.fall {
+    animation: fall-apart 0.5s ease-out;
+}
+
+@keyframes fall-apart {
+    100% {
+        transform: rotateZ(20deg) translateY(8rem);
+        opacity: 0;
+    }
+}
